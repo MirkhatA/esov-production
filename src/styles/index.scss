@@ -1,0 +1,27 @@
+@import "./variables/global";
+
+@import "./themes/grey/light";
+@import "./themes/grey/dark";
+
+//@import "themes/orange/light";
+//@import "themes/orange/dark";
+//
+//@import "themes/yellow/light";
+//@import "themes/yellow/dark";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font: var(--font-m);
+
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+
+  min-height: 100vh;
+}
+
+
